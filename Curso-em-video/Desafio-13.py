@@ -3,14 +3,14 @@ print ()
 print ('================================================================')
 print ('                           DESAFIO  13                          ')
 print ('================================================================')
-print ('Faça um algoritmo que leia o salário de um funcionário e \nmostre seu novo salário, com 15% de aumento. ')
+print ('Faça um algoritmo que leia o salário de um funcionário e \nmostre seu novo salário, com a % de aumento. ')
 print ('================================================================')
 print ()
 
 print()
 nome = str(input('Informe o nome do colaborador: '))
 salario = float(input('Informe o salário atual do colaborador {} R$ '.format(nome)))
-aumporcento = int(input('Informe quantos porcento de aumento: '))
+aumporcento = int(input('Informe quantos porcento de aumento: % '))
 
 
 cemporcento = int(100)
