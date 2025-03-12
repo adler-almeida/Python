@@ -2,6 +2,7 @@
 #Calcule a sua área e a quantidade de tinta necessária para pintá-la
 #Sabendo que cada litro de tinta, pinta uma área de 2m².
 
+print ()
 print ('================ DESAFIO 011 ================')
 print ()
 print ('Quantos litros serão necessários para pintar \numa determinada parede')
