@@ -1,5 +1,6 @@
 #Faça um programa que leia um número inteiro qualquer e mostre na tela a sua tabuada.
 
+print ()
 print ('======== DESAFIO 009 ========')
 print ()
 print ('Crie programa que leia um \nnúmero inteiro qualquer e \nmostre na tela a sua tabuada.')
