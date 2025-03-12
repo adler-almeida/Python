@@ -2,19 +2,21 @@
 
 print ()
 print ('============================================')
-print ('                 DESAFIO 14                 ')
-print ('='*43)
-print ()
+print ('                 DESAFIO 14')
+print ('='*44)
+print ('          Conversor de ºC para ºF')
+print ('='*44)
 
+print ()
 celsius = float(input('Favor informar a temperatura em Cº: '))
 
 fahrenheit = float(celsius*1.8)+32
 
 print ()
-print ('{:.1f} ºC equivale a {} ºF'.format(celsius,fahrenheit))
+print ('{} ºC equivale a {:.2f} ºF'.format(celsius,fahrenheit))
 
 print ()
-print ('='*43)
+print ('='*44)
 print ('- C é a temperatura em Celsius {} ºC'.format(celsius))
-print ('- F é a temperatura em Fahrenheit {} ºF'.format(fahrenheit))
-print ('='*43)
+print ('- F é a temperatura em Fahrenheit {:.2f} ºF'.format(fahrenheit))
+print ('='*44)
