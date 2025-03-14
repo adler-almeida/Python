@@ -4,7 +4,7 @@ Exemplos: de importação em phyton.
 (from doce import pudim). esse comando irá importar somente o pudim.
 
 math = matemática.
-	math / importando a biblioteca math, e chamar a funcionalidades abaixo.:
+	math / importando a biblioteca math, chamar suas funcionalidades abaixo.:
 		-> ceil = arredondar para cima, inglês ceil, pt-br teto.
 		-> floor = arredondar para baixo, inglês floor, pt-br chão.
 		-> trunc = eliminar numeros depois da virgula, inglês trunc, pt-br truncar, dicionário verbo
