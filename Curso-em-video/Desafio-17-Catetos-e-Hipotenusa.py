@@ -4,7 +4,7 @@ calcule e mostre o comprimento da hipotenusa.
 **Importando modulo.**
 '''
 
-#Pode ser feito também usando a formula de Teorema de Pitágoras = c² = a² + b², a e b são catetos, c é a hipotenusa.
+#Pode ser feito também usando a formula de Teorema de Pitágoras (c² = a² + b²), a e b são catetos, c é a hipotenusa.
 
 from math import hypot, ceil
 

@@ -31,7 +31,7 @@ Em documentação, Aba DOCs, verifique sua versão, e escolha.
 Etre em Library Reference, e lá voce encontrará varias bibliotecas com funcionalidades, inclusive math.
 
 atalho, se digitar, import segurar crtl+espaço, apacerá todas as listas disponiveis por padrão.
-é possivel tambem instalar bibliotecas de emojis entre outros, também pelo site oficiar do python, na aba PYPI ao invés de DOCs.
+é possivel tambem instalar bibliotecas de emojis entre outros, também pelo site oficial do python, na aba "PYPI" ao invés de "DOCs".
 
-depois que voce importa uma biblioteca que não estã no seu python, ele ficara com uma lampada vermelha  no pycharm, e voce clica e escolhe a opção, install pacote. para instala-lo, e poder usá-lo.
+Depois que voce importa uma biblioteca que não esta no seu python, ele ficara com uma lampada vermelha  no pycharm, e voce clica e escolhe a opção, install pacote. para instala-lo, e poder usá-lo.
 """
