@@ -20,6 +20,6 @@ catetob = float(input('Informe o Cateto B: '))
 hipotenusa = hypot(catetoa,catetob)
 
 print ()
-print ('A Hipotenusa mede {}.'.format(ceil(hipotenusa)))
+print ('A Hipotenusa mede: {}.'.format(ceil(hipotenusa)))
 print ()
 print ('='*43)
