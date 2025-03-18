@@ -5,7 +5,7 @@ import pygame
 # Inicializar o mixer do pygame
 pygame.mixer.init()
 
-# Carregar o arquivo mp3
+# Carregar o arquivo mp3, arquivo salvo no mesmo diretório do desafio.
 pygame.mixer.music.load('harry-potter.mp3')
 
 # Reproduzir a música
