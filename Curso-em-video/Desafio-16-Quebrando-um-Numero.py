@@ -1,10 +1,10 @@
 """
-Crie um programa que leia um número qualquer pelo teclado, e mostre na tela, a sua porção inteira.
+Crie um programa que leia um número qualquer pelo teclado, e mostre na tela a sua porção inteira.
 Ex: 6.127, parte inteira 6.
 importando modulos.
 """
 from math import trunc
-#Importei (de, matematica, importar, números antes da vírgula = form math import trunc
+#Importei modulo Math (de, matematica, importar, números antes da vírgula = form math import trunc)
 
 print ()
 print ('='*43)
