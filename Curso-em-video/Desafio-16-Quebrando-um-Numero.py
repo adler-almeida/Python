@@ -16,7 +16,7 @@ ndecimal = float(input('Digite um numero decimal: '))
 ninteiro = trunc(ndecimal)
 
 print ()
-print ('Número informado: {}. \nParte inteira é: {}.'.format(ndecimal,ninteiro))
+print ('Número informado: {}. \nParte inteira: {}.'.format(ndecimal,ninteiro))
 print ()
 print ('='*43)
 
