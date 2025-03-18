@@ -1,11 +1,13 @@
-#print = imprimir
-#input = entrada
-#int = números inteiros
-#float = números reais ou numero ou flutuantes = 7.0
-#bool = valores lógicos ou boleanos True verdadeiro False falso
-#str = caracteres ou streans 'ola'
+"""
+print = imprimir
+input = entrada
+int = números inteiros
+float = números reais ou numero ou flutuantes = 7.0
+bool = valores lógicos ou boleanos True verdadeiro False falso
+str = caracteres ou streans 'ola'
+"""
 
-print()
+print ()
 print ('==== TIPOS PRIMITIVOS ====')
 
 print ()
@@ -24,4 +26,4 @@ print ()
 print ('bool = valores lógicos ou boleanos True verdadeiro False falso')
 
 print ()
-print ('str = caracteres ou streans 'ola')
+print ('str = caracteres ou streans "ola"')
