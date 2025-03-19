@@ -1,8 +1,9 @@
 """
 Um professor quer sortear um dos seus quatro alunos para apagar o quadro. Faça um programa que ajude
 ele, lendo o nome deles e escrevendo o nome escolhido.
+**Importando modulo**
 """
-import random
+from random import choice
 
 print ()
 print ('='*43)
@@ -18,10 +19,10 @@ aluno4 = str(input('Favor informar o nome do 4º aluno: '))
 print ()
 
 #criando a lista de alunos
-alunos = [aluno1,aluno2,aluno3,aluno4]
+lista = [aluno1,aluno2,aluno3,aluno4]
 
 #escolhendo um aluno aleatório
-sorteado = random.choice(alunos)
+sorteado = choice(lista)
 
 #exibir na tela
 print ('O Aluno sorteado para realizar a tarefa \nde apagar o quadro será {}.'.format(sorteado))

@@ -6,7 +6,7 @@ calcule e mostre o comprimento da hipotenusa.
 
 #Pode ser feito também usando a formula de Teorema de Pitágoras (c² = a² + b²), a e b são catetos, c é a hipotenusa.
 
-from math import hypot, ceil
+from math import hypot
 #Hypot é para calcular hipotenusa, ceil é para arredondar para o teto, ou seja, para cima.
 
 print ()
@@ -20,6 +20,6 @@ catetob = float(input('Informe o Cateto B: '))
 hipotenusa = hypot(catetoa,catetob)
 
 print ()
-print ('A Hipotenusa mede: {}.'.format(ceil(hipotenusa)))
+print ('A Hipotenusa mede: {:.2f}.'.format(hipotenusa))
 print ()
 print ('='*43)

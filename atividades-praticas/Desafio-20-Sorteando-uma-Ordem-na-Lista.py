@@ -3,7 +3,7 @@ O mesmo professor do desafio anterior quer sortear a ordem de apresentação de 
 Faça um programa que leia o nome dos quatro alunos e mostre a ordem sorteada.
 """
 
-import random
+from random import shuffle
 
 print ()
 print ('='*43)
@@ -19,13 +19,13 @@ aluno4 = str(input('Favor informar o nome do 4º aluno: '))
 print ()
 
 #agora criar uma lista com os alunos e embaralhar..
-alunos = [aluno1,aluno2,aluno3,aluno4]   #lista precisa ser declarada em []
+lista = [aluno1,aluno2,aluno3,aluno4]   #lista precisa ser declarada em []
 
 #embaralhar a lista
-random.shuffle(alunos)
+shuffle(lista)
 
 print ('A ordem sorteada dos Alunos são: ')
-print (alunos)
+print (lista)
 print ('='*43)
 
 """
