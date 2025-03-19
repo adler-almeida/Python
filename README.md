@@ -1,81 +1,81 @@
-# 📌 Repositório de Estudos em Python
+📌 Repositório de Estudos em Python
+Este repositório contém atividades, exercícios e anotações sobre a linguagem Python, criando um histórico de aprendizado e uma referência para consultas futuras.
 
-Este repositório tem como objetivo armazenar atividades, exercícios e anotações sobre a linguagem Python. Ele serve como um histórico da minha evolução, aprendizado e uma referência rápida para consultas futuras.
-
-## 🔍 Sobre o Repositório
-- Contém exercícios e projetos práticos realizados durante meus estudos.
-- Inclui anotações com conceitos e comandos importantes.
-- Atualização constante conforme avanço nos estudos.
-
-## 📚 Conceitos e Comandos
-### Tipos de Dados
+🔍 Sobre o Repositório
+Objetivo: Armazenar projetos práticos, exercícios e conceitos importantes de Python.
+Atualização constante: Conteúdo será atualizado conforme avanço no aprendizado.
+📚 Conceitos e Comandos
+Tipos de Dados
 python
-# Imprimir na tela
-print("Hello, World!")
+Copiar
+Editar
+# Exemplo de Tipos de Dados
 
-# Entrada de dados
-input("Digite algo: ")
+# Texto (string)
+nome = "Adler"
 
-# Tipos de variáveis
-int_var = 10      # Inteiro
-float_var = 7.0   # Números reais (flutuantes)
-bool_var = True   # Valores lógicos (True ou False)
-str_var = "Ola"   # Texto (strings)
+# Números inteiros (int)
+idade = 25
 
+# Números flutuantes (float)
+altura = 1.75
 
-### 🧮 Operações Aritméticas
+# Valores lógicos (bool)
+ativo = True
+🧮 Operações Aritméticas
 python
-# ** Potência
+Copiar
+Editar
+# Exemplo de Operações Aritméticas
+
+# Potência
 resultado = 5 ** 2  # 25
 
-# // Divisão inteira
+# Divisão inteira
 resultado = 5 // 2  # 2
 
-# % Resto da divisão
+# Resto da divisão
 resultado = 5 % 2   # 1
 
-# == Igualdade
+# Comparação
 comparacao = (2 == 2)  # True
+📌 Ordem de Precedência
+Parênteses
+Potência (**)
+Multiplicação, Divisão, Divisão Inteira, Resto (*, /, //, %)
+Soma e Subtração (+, -)
+🚀 Como Utilizar
+1️⃣ Baixar o Repositório
+Se você deseja visualizar ou rodar os códigos, siga estas opções:
 
+Clonar o Repositório: Caso tenha o Git instalado, use este comando:
 
-### 📌 Ordem de Precedência
-1. () Parênteses
-2. ** Potência
-3. *, /, //, % Multiplicação, Divisão, Divisão inteira e Resto
-4. +, - Soma e Subtração
-
-## 🚀 Como Utilizar
-Para utilizar os arquivos deste repositório, siga os passos abaixo:
-
-### 1️⃣ Baixar o Repositório
-Se você deseja apenas visualizar os arquivos, pode acessar diretamente pelo GitHub. Mas se quiser rodar os códigos no seu computador, siga este passo:
-
-- Se você tem **Git** instalado, pode clonar o repositório com este comando:
-  
 bash
-  git clone https://github.com/adler-almeida/Python.git
+Copiar
+Editar
+git clone https://github.com/adler-almeida/Python.git
+Baixar ZIP: Se não tiver o Git, basta clicar no botão Code e escolher Download ZIP.
 
-- Caso não tenha Git, basta clicar no botão **Code** e depois em **Download ZIP**. Em seguida, extraia o arquivo no seu computador.
+2️⃣ Acessar a Pasta do Projeto
+Após baixar o repositório, abra o terminal ou prompt de comando e entre na pasta do projeto:
 
-### 2️⃣ Acessar a Pasta do Projeto
-Após baixar o repositório, abra o terminal (ou prompt de comando) e entre na pasta do projeto:
 bash
+Copiar
+Editar
 cd Python
+3️⃣ Executar um Arquivo Python
+Para rodar um arquivo Python:
 
-
-### 3️⃣ Executar um Arquivo Python
-Para rodar um arquivo Python, use o seguinte comando dentro da pasta:
 bash
+Copiar
+Editar
 python3 nome_do_arquivo.py
+Substitua nome_do_arquivo.py pelo arquivo que você deseja executar.
 
-Substitua nome_do_arquivo.py pelo nome do arquivo que deseja executar.
+🔄 Atualizações Futuras
+Mais Conceitos: Adicionar mais conteúdo conforme avanço nos estudos.
+Desafios: Criar novos desafios para reforçar o aprendizado de Python.
+Mantenha-se atualizado! Esse repositório será constantemente expandido com novos conteúdos.
 
-📌 **Dica:** Se você não tem o Python instalado, baixe-o no site oficial: [python.org](https://www.python.org/downloads/)
-
-## 🔄 Atualizações Futuras
-- Adicionar mais conceitos e anotações conforme avanço nos estudos.
-- Criar scripts práticos e desafios para reforçar o aprendizado.
-
-📌 **Mantenha-se atualizado!** Este repositório será expandido constantemente com novos conteúdos.
-
-📌 **Sugestões são bem-vindas!** Se você tem alguma dica ou melhoria, sinta-se à vontade para contribuir. 😃
+💬 Sugestões e Contribuições
+Sugestões: Se você tem dicas ou melhorias para o repositório, sinta-se à vontade para contribuir! 😊
