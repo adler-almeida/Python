@@ -1,30 +1,43 @@
-# 📌 Repositório de Estudos em Python
+📌 Repositório de Estudos em Python
+Este repositório tem como objetivo armazenar atividades, exercícios e anotações sobre a linguagem Python, com foco em projetos práticos e conceitos relevantes aprendidos. Ele serve como um histórico da minha evolução, aprendizado contínuo e uma referência rápida para consultas futuras.
 
-Este repositório tem como objetivo armazenar atividades, exercícios e anotações sobre a linguagem Python. Ele serve como um histórico da minha evolução, aprendizado e uma referência rápida para consultas futuras.
+🔍 Sobre o Repositório
+Contém exercícios e projetos práticos realizados durante meus estudos.
+Inclui anotações com conceitos e comandos importantes.
+Atualização constante conforme avanço nos estudos.
+📚 Conceitos e Comandos
+Módulo math
+Utilizado para realizar operações matemáticas avançadas.
 
-## 🔍 Sobre o Repositório
-- Contém exercícios e projetos práticos realizados durante meus estudos.
-- Inclui anotações com conceitos e comandos importantes.
-- Atualização constante conforme avanço nos estudos.
+python
+Copiar
+Editar
+import math
 
-## 📚 Conceitos e Comandos
-### Tipos de Dados
-```python
-# Imprimir na tela
-print("Hello, World!")
+# Cálculo de raiz quadrada
+raiz = math.sqrt(16)  # 4.0
+Módulo pygame
+Utilizado para manipulação de áudio, entre outros recursos, como animações.
 
-# Entrada de dados
-input("Digite algo: ")
+python
+Copiar
+Editar
+import pygame
 
-# Tipos de variáveis
-int_var = 10      # Inteiro
-float_var = 7.0   # Números reais (flutuantes)
-bool_var = True   # Valores lógicos (True ou False)
-str_var = "Ola"   # Texto (strings)
-```
+# Inicializar o mixer
+pygame.mixer.init()
 
-### 🧮 Operações Aritméticas
-```python
+# Carregar e tocar uma música
+pygame.mixer.music.load('Caminho/Para/Sua/Música.mp3')
+pygame.mixer.music.play()
+
+# Manter o programa ativo enquanto a música toca
+while pygame.mixer.music.get_busy():
+    pygame.time.Clock().tick(10)
+🧮 Operações Aritméticas
+python
+Copiar
+Editar
 # ** Potência
 resultado = 5 ** 2  # 25
 
@@ -36,46 +49,44 @@ resultado = 5 % 2   # 1
 
 # == Igualdade
 comparacao = (2 == 2)  # True
-```
-
-### 📌 Ordem de Precedência
-1. `()` Parênteses
-2. `**` Potência
-3. `*`, `/`, `//`, `%` Multiplicação, Divisão, Divisão inteira e Resto
-4. `+`, `-` Soma e Subtração
-
-## 🚀 Como Utilizar
+📌 Ordem de Precedência
+() Parênteses
+** Potência
+*, /, //, % Multiplicação, Divisão, Divisão inteira e Resto
++, - Soma e Subtração
+🚀 Como Utilizar
 Para utilizar os arquivos deste repositório, siga os passos abaixo:
 
-### 1️⃣ Baixar o Repositório
+1️⃣ Baixar o Repositório
 Se você deseja apenas visualizar os arquivos, pode acessar diretamente pelo GitHub. Mas se quiser rodar os códigos no seu computador, siga este passo:
 
-- Se você tem **Git** instalado, pode clonar o repositório com este comando:
-  ```bash
-  git clone https://github.com/adler-almeida/Python.git
-  ```
-- Caso não tenha Git, basta clicar no botão **Code** e depois em **Download ZIP**. Em seguida, extraia o arquivo no seu computador.
-
-### 2️⃣ Acessar a Pasta do Projeto
+Se você tem Git instalado, pode clonar o repositório com este comando:
+bash
+Copiar
+Editar
+git clone https://github.com/adler-almeida/Python.git
+Caso não tenha Git, basta clicar no botão Code e depois em Download ZIP. Em seguida, extraia o arquivo no seu computador.
+2️⃣ Acessar a Pasta do Projeto
 Após baixar o repositório, abra o terminal (ou prompt de comando) e entre na pasta do projeto:
-```bash
+
+bash
+Copiar
+Editar
 cd Python
-```
-
-### 3️⃣ Executar um Arquivo Python
+3️⃣ Executar um Arquivo Python
 Para rodar um arquivo Python, use o seguinte comando dentro da pasta:
-```bash
+
+bash
+Copiar
+Editar
 python3 nome_do_arquivo.py
-```
-Substitua `nome_do_arquivo.py` pelo nome do arquivo que deseja executar.
+Substitua nome_do_arquivo.py pelo nome do arquivo que deseja executar.
 
-📌 **Dica:** Se você não tem o Python instalado, baixe-o no site oficial: [python.org](https://www.python.org/downloads/)
+📌 Dica: Se você não tem o Python instalado, baixe-o no site oficial: python.org
 
-## 🔄 Atualizações Futuras
-- Adicionar mais conceitos e anotações conforme avanço nos estudos.
-- Criar scripts práticos e desafios para reforçar o aprendizado.
+🔄 Atualizações Futuras
+Adicionar mais conceitos e anotações conforme avanço nos estudos.
+Criar scripts práticos e desafios para reforçar o aprendizado.
+📌 Mantenha-se atualizado! Este repositório será expandido constantemente com novos conteúdos.
 
-📌 **Mantenha-se atualizado!** Este repositório será expandido constantemente com novos conteúdos.
-
-📌 **Sugestões são bem-vindas!** Se você tem alguma dica ou melhoria, sinta-se à vontade para contribuir. 😃
-
+📌 Sugestões são bem-vindas! Se você tem alguma dica ou melhoria, sinta-se à vontade para contribuir. 😃
