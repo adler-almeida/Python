@@ -16,10 +16,17 @@ while pygame.mixer.music.get_busy():
     pygame.time.Clock().tick(10)
 
 """
-Resumo da Atividade: Tocar Música MP3 com Pygame
-Importação e Inicialização: O módulo pygame é importado e o mixer é inicializado para lidar com o som.
+Resumo do Desafio: Tocar Música MP3 com Pygame
 
-Carregar e Reproduzir Música: A música é carregada utilizando pygame.mixer.music.load() e começa a tocar com pygame.mixer.music.play().
-
-Controle de Execução: O loop while pygame.mixer.music.get_busy() mantém o programa ativo enquanto a música toca, com pygame.time.Clock().tick(10) garantindo a execução eficiente.
+1º Importação e Inicialização:
+   - O módulo pygame é importado.
+   - O pygame.mixer é inicializado para trabalhar com som.
+   
+2 º Carregar e Reproduzir Música:
+   - A música é carregada com pygame.mixer.music.load().
+   - A reprodução é iniciada com pygame.mixer.music.play().
+   
+3º Controle de Execução:
+   - O loop while pygame.mixer.music.get_busy() mantém o programa ativo enquanto a música toca.
+   - pygame.time.Clock().tick(10) controla a taxa de execução do loop.
 """
