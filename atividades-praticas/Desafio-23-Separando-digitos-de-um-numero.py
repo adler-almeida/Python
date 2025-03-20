@@ -15,3 +15,25 @@ print ('='*43)
 print ('                  DESAFIO 23')
 print ('='*43)
 print ()
+
+print ('Sistema de Numeração Decimal')
+numero = str(input('Informe um número: '))
+# Retirar os espaços para evitar erros.
+numero = numero.zfill(4) #zfill(4) preenche com zeros à esquerda,
+
+# Criar as variaveis para armazenar cada informação e transmistir.
+unidade = numero [-1]
+dezenda = numero [-2]
+centena = numero [-3]
+milhar = numero [-4]
+# A ideia dos índices negativos é contar de trás para frente da sequência, e -1 sempre será o último, -2 será o penúltimo, e assim por diante.
+
+# Informar na tela
+print ()
+print ('Ordens:')
+print ('Unidade: {}'.format(unidade))
+print ('Dezenda: {}'.format(dezenda))
+print ('Centena: {}'.format(centena))
+print ('Milhar: {}'.format(milhar))
+print ()
+print ('='*43)
