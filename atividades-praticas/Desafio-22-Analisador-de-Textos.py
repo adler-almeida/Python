@@ -20,7 +20,7 @@ print ()
 print ('Seu nome completo em letras maiúsculas: {}'.format(nomec.upper()))
 print ('Seu nome completo em letras minúsculas: {}'.format(nomec.lower()))
 print ('Espaços ao todo: {}'.format(len(nomec)))
-print ('Letras ao todo seu nome completo possui: {}'.format(len(nomec.replace(" ", ""))))
+print ('Seu nome completo possui: {} letras'.format(len(nomec.replace(" ", ""))))
 #divisão da str nomec
 dividir = nomec.split()
 print ('Seu primeiro nome possui {} letras'.format(len(dividir[0])))
