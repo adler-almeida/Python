@@ -16,9 +16,10 @@ print ('                  DESAFIO 23')
 print ('='*43)
 print ()
 
-print ('Sistema de Numeração Decimal')
+print ('Sistema de Numeração Decimal até Milhar')
 numero = str(input('Informe um número: '))
-# Retirar os espaços para evitar erros.
+
+# Preencher com 0 os campos vazios para evitar erro.
 numero = numero.zfill(4) #zfill(4) preenche com zeros à esquerda,
 
 # Criar as variaveis para armazenar cada informação e transmistir.
