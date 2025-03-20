@@ -9,7 +9,22 @@ Crie um programa que leia o nome completo de uma pessoa e mostre:
 """
 
 print ()
-print ('='*43)
-print ('                  DESAFIO 22')
-print ('='*43)
+print ('='*63)
+print ('                          DESAFIO 22')
+print ('='*63)
 print ()
+
+nomec = str(input('Informe seu nome completo: '))
+
+print ()
+print ('Seu nome completo em letras maiúsculas: {}'.format(nomec.upper()))
+print ('Seu nome completo em letras minúsculas: {}'.format(nomec.lower()))
+print ('Espaços ao todo: {}'.format(len(nomec)))
+print ('Letras ao todo seu nome completo possui: {}'.format(len(nomec.replace(" ", ""))))
+#divisão da str nomec
+dividir = nomec.split()
+print ('Seu primeiro nome possui {} letras'.format(len(dividir[0])))
+print ()
+print ('='*63)
+
+
