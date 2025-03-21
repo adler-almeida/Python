@@ -1,6 +1,6 @@
 """
 Crie um programa que leia o nome de uma cidade e diga se ela começa ou não com o nome "SANTO".
-
+meu bairro contém santo, então fiz como bairro.
 """
 
 print ()
@@ -18,7 +18,7 @@ cidade = cidade.upper().split()
 # criar a variavel contendo a palavra de comparação:
 santo = 'SANTO'
 
-# condição if = se
+# condição if = se else = senao
 if cidade[0] == santo:
     print ('Parabéns, sua cidade começa com SANTO.')
 else:

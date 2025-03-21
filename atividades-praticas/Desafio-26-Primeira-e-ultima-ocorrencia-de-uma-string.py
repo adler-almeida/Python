@@ -13,7 +13,7 @@ print ()
 
 # Salvando a frase e tornando maiuscula.
 frase = str(input('Escreva uma frase: '))
-frase = frase.upper()
+frase = frase.upper ().replace(" ","")
 
 # Contando quantas vezes aparece a letra 'A'.
 print ()
@@ -22,3 +22,4 @@ print ('A letra "a" aparece a primeira vez na posição {}'.format(frase.find('A
 print ('A letra "a" aparece a ultima vez na posição {}'.format(frase.rfind('A')))
 print ()
 print ('='*53)
+

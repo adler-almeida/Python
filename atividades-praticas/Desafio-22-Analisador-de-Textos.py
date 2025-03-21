@@ -17,6 +17,7 @@ print ()
 nomec = str(input('Informe seu nome completo: '))
 
 print ()
+print ('Analisando seu nome...')
 print ('Seu nome completo em letras maiúsculas: {}'.format(nomec.upper()))
 print ('Seu nome completo em letras minúsculas: {}'.format(nomec.lower()))
 print ('Espaços ao todo: {}'.format(len(nomec)))
