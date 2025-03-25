@@ -53,8 +53,34 @@ comparacao = (2 == 2)  # True
 
 ---
 ## 🔄 Condicionais: if e else
+O if e else são usados para tomar decisões em seu código. O Python executa um bloco de código se uma condição for verdadeira, e outro bloco se for falsa.
+### Exemplo de uso:
+````python
+idade = 18
 
+# Se a idade for maior ou igual a 18, é maior de idade, senão é menor de idade
+if idade >= 18:
+    print("Você é maior de idade!")
+else:
+    print("Você é menor de idade!")
+````
+### Explicação:
+- **if**: Executa o código dentro do bloco se a condição for verdadeira.
+- **else**: Executa o código dentro do bloco se a condição do if for falsa.
 
+### Exemplo com elif:
+O **elif** é utilizado quando queremos verificar múltiplas condições.
+````python
+nota = 8
+
+if nota >= 7:
+    print("Aprovado")
+elif nota >= 5:
+    print("Recuperação")
+else:
+    print("Reprovado")
+````
+---
 ## 🧑‍💻 Bibliotecas Importantes
 
 ### 📐 Módulo math
