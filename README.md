@@ -52,9 +52,9 @@ comparacao = (2 == 2)  # True
 ```
 
 ---
-## 🔄 Condicionais: if e else
-O if e else são usados para tomar decisões em seu código. O Python executa um bloco de código se uma condição for verdadeira, e outro bloco se for falsa.
-### Exemplo de uso:
+## 🔄 Condicionais: if, else e elif
+As estruturas condicionais permitem que você tome decisões em seu código. O Python executa um bloco de código se a condição for verdadeira, e outro se for falsa.
+### Estrutura if e else:
 ````python
 idade = 18
 
@@ -64,11 +64,10 @@ if idade >= 18:
 else:
     print("Você é menor de idade!")
 ````
-### Explicação:
 - **if**: Executa o código dentro do bloco se a condição for verdadeira.
 - **else**: Executa o código dentro do bloco se a condição do if for falsa.
 
-### Exemplo com elif:
+### Estrutura elif:
 O **elif** é utilizado quando queremos verificar múltiplas condições.
 ````python
 nota = 8
@@ -80,33 +79,25 @@ elif nota >= 5:
 else:
     print("Reprovado")
 ````
+
 ---
-## 🧑‍💻 Bibliotecas Importantes
+## 🔄 Estruturas de Repetição: for e while
+As estruturas de repetição permitem que você execute blocos de código várias vezes, sem a necessidade de escrever o mesmo código repetidamente.
+### Estrutura for
+Usado quando o número de repetições é conhecido:
+````python
+for i in range(5):
+    print(i)
+````
+O range(5) cria uma sequência de números de 0 a 4. A cada iteração, a variável i recebe o valor correspondente.
+### Estrutura while
+Usado quando o número de repetições não é conhecido e depende de uma condição:
+```´python
+contador = 0
 
-### 📐 Módulo math
-O módulo `math` contém funções matemáticas, como cálculos de raízes quadradas, trigonometria e mais.
-```python
-import math
-
-# Raiz quadrada
-print(math.sqrt(16))  # 4.0
-```
-
-### 🎶 Módulo pygame (Música)
-O `pygame` pode ser utilizado para tocar arquivos de áudio, como músicas em formato MP3.
-```python
-import pygame
-
-# Inicializa o Pygame
-pygame.init()
-
-# Carrega e toca uma música
-pygame.mixer.music.load("musica.mp3")
-pygame.mixer.music.play()
-
-# Aguarda a música terminar
-while pygame.mixer.music.get_busy():
-    pygame.time.Clock().tick(10)
+while contador < 5:
+    print(contador)
+    contador += 1
 ```
 
 ---
@@ -182,6 +173,37 @@ print(frase.replace('Python', 'Android'))  # 'Curso em Vídeo Android'
 dividido = frase.split()
 print(dividido[2][4])  # 'o'
 ```
+
+---
+
+## 🧑‍💻 Bibliotecas Importantes
+
+### 📐 Módulo math
+O módulo `math` contém funções matemáticas, como cálculos de raízes quadradas, trigonometria e mais.
+```python
+import math
+
+# Raiz quadrada
+print(math.sqrt(16))  # 4.0
+```
+
+### 🎶 Módulo pygame (Música)
+O `pygame` pode ser utilizado para tocar arquivos de áudio, como músicas em formato MP3.
+```python
+import pygame
+
+# Inicializa o Pygame
+pygame.init()
+
+# Carrega e toca uma música
+pygame.mixer.music.load("musica.mp3")
+pygame.mixer.music.play()
+
+# Aguarda a música terminar
+while pygame.mixer.music.get_busy():
+    pygame.time.Clock().tick(10)
+```
+
 
 ---
 

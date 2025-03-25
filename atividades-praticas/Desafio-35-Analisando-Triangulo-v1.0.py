@@ -14,13 +14,12 @@ print ('Informe tres retas que iremos dizer\nse elas formam ou não um triângul
 
 # Solicitando e armazenando dados.
 print ()
-valor1 = int(input('Informe o primeiro comprimento: '))
-valor2 = int(input('Infomre o segundo comprimento: '))
-valor3 = int(input('Informe o terceiro comprimento: '))
+a = float(input('Informe o primeiro comprimento: '))
+b = float(input('Infomre o segundo comprimento: '))
+c = float(input('Informe o terceiro comprimento: '))
 
 # Criando Lista
-lista = [valor1,valor2,valor3]
-a, b, c = lista
+lista = str([a,b,c])
 
 # Criando a condição e formula
 print ()

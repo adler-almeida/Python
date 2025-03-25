@@ -12,7 +12,7 @@ print ('='*53)
 print ()
 
 # Realizando a pergunta e armazenando dados.
-salario = int(input('Qual o salário do funcionário R$ '))
+salario = float(input('Qual o salário do funcionário R$ '))
 
 # Criando o limite
 limite = int(1250)
@@ -21,10 +21,10 @@ print ()
 # Criando condição com fórmula
 if salario > limite:
     salario = salario * 1.10 # Cento e dez porcento.
-    print ('Seu novo salário com reajuste R$ {:.2f}'.format(salario))
+    print ('Seu novo salário com reajuste R$ {:.2f}.'.format(salario))
 else:
     salario = salario * 1.15
-    print ('Seu novo salário com reajuste R$ {:.2f}'.format(salario))
+    print ('Seu novo salário com reajuste R$ {:.2f}.'.format(salario))
 print ()
 print ('='*53)
 
