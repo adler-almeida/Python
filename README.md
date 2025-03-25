@@ -1,4 +1,4 @@
-# 📌 Repositório de Estudos em Python
+# 📝 Repositório de Estudos em Python
 
 Este repositório contém atividades, exercícios e anotações sobre a linguagem Python. Ele serve como um histórico de evolução e aprendizado, sendo uma referência para futuras consultas.
 
@@ -52,6 +52,8 @@ comparacao = (2 == 2)  # True
 ```
 
 ---
+## 🔄 Condicionais: if e else
+
 
 ## 🧑‍💻 Bibliotecas Importantes
 
