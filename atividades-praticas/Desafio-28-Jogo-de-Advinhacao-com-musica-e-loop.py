@@ -6,6 +6,7 @@ O Programa deverá escrever na tela se o usuário venceu ou perdeu.
 import random
 import pygame
 import os
+import time # Time é possivel colocar quando segundos deseja antes de carregar a proxima informação dentro de ().
 
 # Inicializar o mixer
 pygame.init()
@@ -26,13 +27,15 @@ while True:
     print ()
     print ('Deixe-me pensar em número')
     print ()
+    time.sleep(2)
     print ('Pensando...')
+    time.sleep(2)
     print ()
 
 # Escolhendo e armazenando um número
     nsorteado = random.randint(0,5)
     print ('Já escolhi um número! Agora é sua vez.')
-    print ('Voce deverá escolher um número de 0 a 5')
+    print ('Voce deverá escolher o número que escolhi de 0 a 5')
     print ()
     ninformado = int(input('Qual número você informa? '))
 
